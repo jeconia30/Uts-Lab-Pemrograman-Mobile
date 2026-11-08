@@ -1,17 +1,20 @@
-# uts_lab_pemob
+Nama: Jeconia Farica Sitorus
+Nim: 241401108
+Lab: 6 Pemrograman Mobile
 
-A new Flutter project.
+Nama Aplikasi: Quizzard
+Deskripsi: Quizzard adalah aplikasi kuis pilihan ganda untuk menguji pemahaman dasar pemrograman. Pengguna memasukkan nama, menjawab 10 pertanyaan, lalu melihat skor akhir beserta rincian jawaban benar dan salah.
+Fitur:
+- Input nama pengguna dengan validasi (minimal 2 huruf)
+- 10 soal pilihan ganda dengan urutan soal diacak setiap sesi
+- Progress bar dan nomor soal
+- Navigasi soal sebelumnya dan berikutnya, tombol Lanjut baru aktif setelah soal dijawab
+- Halaman hasil: skor akhir (0-100), jumlah jawaban benar, dan rincian tiap soal
+- Tombol Main lagi dan kembali ke beranda
+- Dialog konfirmasi saat keluar di tengah kuis
+- State management dengan Provider, sehingga jawaban tidak hilang saat layar diputar atau berpindah halaman
+- Dual theme: Light Mode dan Dark Mode
+- Tampilan adaptif dan responsif untuk HP, tablet, dan web
+- Font kustom (Poppins) dan logo sendiri
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dokumentasi:https://docs.google.com/document/d/1SxpyFYkC-FltfQpCnzeHogZfmRG8QsZnELnpwbbRLAU/edit?usp=sharing
